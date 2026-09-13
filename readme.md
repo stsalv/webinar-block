@@ -70,3 +70,6 @@ Yes, the editor shows a themed static preview; the full player renders on the fr
 * HLS with signed segments (nginx/CloudFront/Fastly/custom), re-signing on 403/410, prime-loading.
 * Color themes as per-instance CSS variables; layout schemes with custom CSS and live preview.
 * Container-query layouts for side-by-side widgets; rate-limited view/click counters; ru_RU translation included.
+
+### 1.1.0
+* Add support for multiple language 
