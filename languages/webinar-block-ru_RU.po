@@ -1,0 +1,944 @@
+# Russian translation for Webinar Block.
+msgid ""
+msgstr ""
+"Project-Id-Version: Webinar Block 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/stsalv/webinar-block/issues\n"
+"POT-Creation-Date: 2026-09-13 11:51+0300\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: includes/class-webinar-gutenberg.php:104 includes/class-webinar-cpt.php:26
+msgid "Webinar"
+msgstr "Вебинар"
+
+#: includes/class-webinar-gutenberg.php:105
+msgid "Webinar settings"
+msgstr "Настройки вебинара"
+
+#: includes/class-webinar-gutenberg.php:106
+msgid "— Select a webinar —"
+msgstr "— Выберите вебинар —"
+
+#: includes/class-webinar-gutenberg.php:107
+msgid "Selected:"
+msgstr "Выбран:"
+
+#: includes/class-webinar-gutenberg.php:108
+msgid "Choose a published webinar. The full block renders on the site."
+msgstr "Выберите опубликованный вебинар. Полный блок отображается на сайте."
+
+#: includes/class-webinar-meta.php:267 includes/class-webinar-render.php:694
+#: includes/admin/class-webinar-admin.php:150
+msgid "Download PDF"
+msgstr "Скачать PDF"
+
+#: includes/class-webinar-render.php:219
+msgid "Auto"
+msgstr "Авто"
+
+#: includes/class-webinar-render.php:220
+msgid "Previous slide"
+msgstr "Предыдущий слайд"
+
+#: includes/class-webinar-render.php:221
+msgid "Next slide"
+msgstr "Следующий слайд"
+
+#: includes/class-webinar-render.php:223 includes/class-webinar-render.php:525
+#: includes/class-webinar-render.php:534 includes/class-webinar-render.php:564
+msgid "Play"
+msgstr "Воспроизвести"
+
+#: includes/class-webinar-render.php:224
+msgid "Pause"
+msgstr "Пауза"
+
+#: includes/class-webinar-render.php:225 includes/class-webinar-render.php:567
+msgid "Mute"
+msgstr "Выключить звук"
+
+#: includes/class-webinar-render.php:226
+msgid "Unmute"
+msgstr "Включить звук"
+
+#: includes/class-webinar-render.php:227 includes/class-webinar-render.php:600
+msgid "Fullscreen"
+msgstr "Полноэкранный режим"
+
+#: includes/class-webinar-render.php:228
+msgid "Exit Fullscreen"
+msgstr "Выйти из полноэкранного режима"
+
+#: includes/class-webinar-render.php:229 includes/class-webinar-render.php:546
+msgid "Skip backward 10 seconds"
+msgstr "Перемотать назад на 10 секунд"
+
+#: includes/class-webinar-render.php:230 includes/class-webinar-render.php:554
+msgid "Skip forward 10 seconds"
+msgstr "Перемотать вперёд на 10 секунд"
+
+#: includes/class-webinar-render.php:231 includes/class-webinar-render.php:576
+#: includes/class-webinar-render.php:580
+msgid "Playback speed"
+msgstr "Скорость воспроизведения"
+
+#: includes/class-webinar-render.php:232 includes/class-webinar-render.php:558
+msgid "Progress"
+msgstr "Прогресс"
+
+#: includes/class-webinar-render.php:233 includes/class-webinar-render.php:571
+msgid "Volume"
+msgstr "Громкость"
+
+#: includes/class-webinar-render.php:235 includes/class-webinar-render.php:607
+msgid "Buffering"
+msgstr "Буферизация"
+
+#: includes/class-webinar-render.php:236 includes/class-webinar-render.php:614
+msgid "Playback error"
+msgstr "Ошибка воспроизведения"
+
+#: includes/class-webinar-render.php:237 includes/class-webinar-render.php:615
+#: includes/class-webinar-render.php:617
+msgid "Retry"
+msgstr "Повторить"
+
+#: includes/class-webinar-render.php:238
+msgid "Quality"
+msgstr "Качество"
+
+#: includes/class-webinar-render.php:239 includes/class-webinar-render.php:590
+#: includes/class-webinar-render.php:593
+msgid "Share"
+msgstr "Поделиться"
+
+#: includes/class-webinar-render.php:495
+#: includes/admin/class-webinar-admin.php:195
+#: includes/admin/class-webinar-admin.php:942
+msgid "Video"
+msgstr "Видео"
+
+#: includes/class-webinar-render.php:497
+#: includes/admin/class-webinar-admin.php:199
+#: includes/admin/class-webinar-admin.php:738
+msgid "Takeaways"
+msgstr "Выводы"
+
+#: includes/class-webinar-render.php:500
+#: includes/admin/class-webinar-admin.php:200
+#: includes/admin/class-webinar-admin.php:739
+msgid "Materials"
+msgstr "Материалы"
+
+#: includes/class-webinar-render.php:537
+msgid "Picture-in-Picture"
+msgstr "В отдельном окне"
+
+#: includes/class-webinar-render.php:594
+msgid "Link to video"
+msgstr "Ссылка на видео"
+
+#: includes/class-webinar-render.php:595
+msgid "Link to moment"
+msgstr "Ссылка на момент"
+
+#: includes/class-webinar-render.php:597
+msgid "Link copied to clipboard"
+msgstr "Ссылка скопирована в буфер обмена"
+
+#: includes/class-webinar-render.php:651 includes/class-webinar-render.php:674
+#: includes/admin/class-webinar-admin.php:174
+msgid "Detailed content"
+msgstr "Детальное содержание"
+
+#: includes/class-webinar-cpt.php:25 includes/class-webinar-cpt.php:37
+msgid "Webinars"
+msgstr "Вебинары"
+
+#: includes/class-webinar-cpt.php:27
+msgid "Add New"
+msgstr "Добавить"
+
+#: includes/class-webinar-cpt.php:28
+msgid "Add New Webinar"
+msgstr "Добавить новый вебинар"
+
+#: includes/class-webinar-cpt.php:29
+msgid "Edit Webinar"
+msgstr "Редактировать вебинар"
+
+#: includes/class-webinar-cpt.php:30
+msgid "New Webinar"
+msgstr "Новый вебинар"
+
+#: includes/class-webinar-cpt.php:31
+msgid "View Webinar"
+msgstr "Просмотреть вебинар"
+
+#: includes/class-webinar-cpt.php:32
+msgid "View Webinars"
+msgstr "Просмотреть вебинары"
+
+#: includes/class-webinar-cpt.php:33
+msgid "Search Webinars"
+msgstr "Найти вебинары"
+
+#: includes/class-webinar-cpt.php:34
+msgid "No webinars found"
+msgstr "Вебинары не найдены"
+
+#: includes/class-webinar-cpt.php:35
+msgid "No webinars found in Trash"
+msgstr "В корзине вебинаров не найдено"
+
+#: includes/class-webinar-cpt.php:36
+msgid "All Webinars"
+msgstr "Все вебинары"
+
+#: includes/class-webinar-cpt.php:38
+msgid "Webinar Archives"
+msgstr "Архив вебинаров"
+
+#: includes/class-webinar-cpt.php:39
+msgid "Webinar Attributes"
+msgstr "Атрибуты вебинара"
+
+#: includes/class-webinar-cpt.php:40
+msgid "Parent Webinar:"
+msgstr "Родительский вебинар:"
+
+#: includes/class-webinar-cpt.php:41
+msgid "Featured image"
+msgstr "Изображение записи"
+
+#: includes/class-webinar-cpt.php:42
+msgid "Set featured image"
+msgstr "Задать изображение"
+
+#: includes/class-webinar-cpt.php:43
+msgid "Remove featured image"
+msgstr "Удалить изображение"
+
+#: includes/class-webinar-cpt.php:44
+msgid "Use as featured image"
+msgstr "Использовать как изображение"
+
+#: includes/class-webinar-cpt.php:45
+msgid "Insert into webinar"
+msgstr "Вставить в вебинар"
+
+#: includes/class-webinar-cpt.php:46
+msgid "Uploaded to this webinar"
+msgstr "Загружено в этот вебинар"
+
+#: includes/class-webinar-cpt.php:47
+msgid "Filter webinars list"
+msgstr "Фильтровать список вебинаров"
+
+#: includes/class-webinar-cpt.php:48
+msgid "Webinars list navigation"
+msgstr "Навигация по списку вебинаров"
+
+#: includes/class-webinar-cpt.php:49
+msgid "Webinars list"
+msgstr "Список вебинаров"
+
+#: includes/class-webinar-cpt.php:50
+msgid "Webinar published."
+msgstr "Вебинар опубликован."
+
+#: includes/class-webinar-cpt.php:51
+msgid "Webinar published privately."
+msgstr "Вебинар опубликован как скрытый."
+
+#: includes/class-webinar-cpt.php:52
+msgid "Webinar scheduled."
+msgstr "Вебинар запланирован."
+
+#: includes/class-webinar-cpt.php:53
+msgid "Webinar updated."
+msgstr "Вебинар обновлён."
+
+#: includes/admin/class-webinar-admin.php:99
+msgid "Choose video"
+msgstr "Выберите видео"
+
+#: includes/admin/class-webinar-admin.php:100
+msgid "Choose poster"
+msgstr "Выберите заставку"
+
+#: includes/admin/class-webinar-admin.php:101
+msgid "Choose manifest"
+msgstr "Выберите манифест"
+
+#: includes/admin/class-webinar-admin.php:102
+msgid "Choose file"
+msgstr "Выберите файл"
+
+#: includes/admin/class-webinar-admin.php:103
+msgid "Choose icon"
+msgstr "Выберите иконку"
+
+#: includes/admin/class-webinar-admin.php:105
+#: includes/admin/class-webinar-admin.php:443
+msgid "(default)"
+msgstr "(по умолчанию)"
+
+#: includes/admin/class-webinar-admin.php:106
+msgid "Remove this row?"
+msgstr "Удалить эту строку?"
+
+#: includes/admin/class-webinar-admin.php:110
+msgid "Imported. Reloading…"
+msgstr "Импортировано. Перезагрузка…"
+
+#: includes/admin/class-webinar-admin.php:111
+msgid "Import failed."
+msgstr "Ошибка импорта."
+
+#: includes/admin/class-webinar-admin.php:112
+msgid "What should happen to the current rows?"
+msgstr "Что сделать с текущими строками?"
+
+#: includes/admin/class-webinar-admin.php:113
+msgid "Append to current rows"
+msgstr "Добавить к текущим строкам"
+
+#: includes/admin/class-webinar-admin.php:114
+msgid "Replace current rows"
+msgstr "Заменить текущие строки"
+
+#: includes/admin/class-webinar-admin.php:115
+msgid "Cancel"
+msgstr "Отмена"
+
+#: includes/admin/class-webinar-admin.php:116
+msgid "File format does not match this block."
+msgstr "Формат файла не соответствует текущему блоку."
+
+#: includes/admin/class-webinar-admin.php:117
+msgid "Replace the key takeaway?"
+msgstr "Заменить ключевой вывод?"
+
+#: includes/admin/class-webinar-admin.php:118
+msgid "Yes"
+msgstr "Да"
+
+#: includes/admin/class-webinar-admin.php:119
+msgid "No"
+msgstr "Нет"
+
+#: includes/admin/class-webinar-admin.php:120
+msgid "Hash template and signature template are required for HLS."
+msgstr "Для HLS обязательны шаблон хэша и шаблон подписи."
+
+#: includes/admin/class-webinar-admin.php:128
+#: includes/admin/class-webinar-admin.php:161
+msgid "Introduction"
+msgstr "Введение"
+
+#: includes/admin/class-webinar-admin.php:129
+msgid "Welcome and overview"
+msgstr "Приветствие и обзор"
+
+#: includes/admin/class-webinar-admin.php:133
+#: includes/admin/class-webinar-admin.php:166
+msgid "Main Topic"
+msgstr "Основная тема"
+
+#: includes/admin/class-webinar-admin.php:134
+msgid "Key concepts explained"
+msgstr "Разбор ключевых концепций"
+
+#: includes/admin/class-webinar-admin.php:138
+msgid "Case Study"
+msgstr "Практический пример"
+
+#: includes/admin/class-webinar-admin.php:139
+msgid "Real-world example"
+msgstr "Пример из реальной практики"
+
+#: includes/admin/class-webinar-admin.php:143
+msgid "First important takeaway from the webinar"
+msgstr "Первый важный вывод из вебинара"
+
+#: includes/admin/class-webinar-admin.php:144
+msgid "Second key point to remember"
+msgstr "Второй ключевой момент, который стоит запомнить"
+
+#: includes/admin/class-webinar-admin.php:145
+msgid "Third actionable insight"
+msgstr "Третий практический инсайт"
+
+#: includes/admin/class-webinar-admin.php:146
+msgid "Fourth conclusion for practice"
+msgstr "Четвертый вывод для применения на практике"
+
+#: includes/admin/class-webinar-admin.php:151
+msgid "Main presentation slides"
+msgstr "Основные слайды презентации"
+
+#: includes/admin/class-webinar-admin.php:154
+msgid "Get Checklist"
+msgstr "Получить чек-лист"
+
+#: includes/admin/class-webinar-admin.php:155
+msgid "Step-by-step guide"
+msgstr "Пошаговое руководство"
+
+#: includes/admin/class-webinar-admin.php:162
+msgid ""
+"Detailed explanation of the introduction section with key points and context."
+msgstr ""
+"Подробное объяснение раздела введения с ключевыми моментами и контекстом."
+
+#: includes/admin/class-webinar-admin.php:167
+msgid ""
+"In-depth analysis of the main topic with examples and practical applications."
+msgstr "Глубокий анализ основной темы с примерами и практическим применением."
+
+#: includes/admin/class-webinar-admin.php:172
+msgid "Preview not available"
+msgstr "Превью недоступно"
+
+#: includes/admin/class-webinar-admin.php:173
+msgid "Preview updated"
+msgstr "Превью обновлено"
+
+#: includes/admin/class-webinar-admin.php:175
+msgid "Dangerous pattern detected"
+msgstr "Обнаружен опасный шаблон"
+
+#: includes/admin/class-webinar-admin.php:176
+msgid "Syntax error: mismatched braces"
+msgstr "Синтаксическая ошибка: несовпадение фигурных скобок"
+
+#: includes/admin/class-webinar-admin.php:177
+msgid "Unknown element in selector"
+msgstr "Неизвестный элемент в селекторе"
+
+#: includes/admin/class-webinar-admin.php:178
+msgid "Invalid selector"
+msgstr "Некорректный селектор"
+
+#: includes/admin/class-webinar-admin.php:194
+msgid "Webinar details"
+msgstr "Данные вебинара"
+
+#: includes/admin/class-webinar-admin.php:196
+msgid "Presentation"
+msgstr "Презентация"
+
+#: includes/admin/class-webinar-admin.php:198
+#: includes/admin/class-webinar-admin.php:737
+msgid "Timeline"
+msgstr "Таймлайн"
+
+#: includes/admin/class-webinar-admin.php:202
+msgid "Theme"
+msgstr "Тема"
+
+#: includes/admin/class-webinar-admin.php:203
+msgid "Layout schemes"
+msgstr "Схемы оформления"
+
+#: includes/admin/class-webinar-admin.php:204
+msgid "Import / Export"
+msgstr "Импорт / экспорт"
+
+#: includes/admin/class-webinar-admin.php:221
+msgid "View counter (editable)"
+msgstr "Счётчик просмотров (редактируемый)"
+
+#: includes/admin/class-webinar-admin.php:225
+#: includes/admin/class-webinar-admin.php:527
+msgid "Short description"
+msgstr "Краткое описание"
+
+#: includes/admin/class-webinar-admin.php:229
+msgid "Full description"
+msgstr "Полное описание"
+
+#: includes/admin/class-webinar-admin.php:233
+msgid "Key message"
+msgstr "Ключевой посыл"
+
+#: includes/admin/class-webinar-admin.php:261
+msgid "Player interface"
+msgstr "Интерфейс плеера"
+
+#: includes/admin/class-webinar-admin.php:262
+msgid "Native browser controls"
+msgstr "Стандартные контролы браузера"
+
+#: includes/admin/class-webinar-admin.php:264
+msgid "Custom branded player"
+msgstr "Фирменный плеер"
+
+#: includes/admin/class-webinar-admin.php:265
+msgid ""
+"Custom player uses branded controls matching your theme. Native uses browser "
+"default controls."
+msgstr ""
+"Фирменный плеер использует контролы в стиле вашей темы. Стандартный "
+"использует контролы браузера по умолчанию."
+
+#: includes/admin/class-webinar-admin.php:269
+msgid "Show share links"
+msgstr "Показывать ссылки"
+
+#: includes/admin/class-webinar-admin.php:270
+msgid ""
+"Adds a share button with \"Link to video\" and \"Link to moment\" actions. "
+"Custom player only."
+msgstr ""
+"Добавляет кнопку «Поделиться» с действиями «Ссылка на видео» и «Ссылка на "
+"момент». Только для фирменного плеера."
+
+#: includes/admin/class-webinar-admin.php:273
+msgid "Preview storyboard URL (standard), recommended frame size 284 x 160"
+msgstr "URL спрайтов превью (стандарт), рекомендуемый размер кадра 284 x 160"
+
+#: includes/admin/class-webinar-admin.php:277
+msgid "Preview storyboard URL (small), recommended frame size 192 x 108"
+msgstr "URL спрайтов превью (малый), рекомендуемый размер кадра 192 x 108"
+
+#: includes/admin/class-webinar-admin.php:279
+msgid ""
+"WebVTT storyboard files with #xywh tiles. Standard is used on wide screens "
+"with a fast connection; small on narrow screens or slow networks. Custom "
+"player only."
+msgstr ""
+"Файлы WebVTT с тайлами #xywh. Стандарт используется на широких экранах при "
+"быстром соединении; малый — на узких экранах или медленных сетях. Только для "
+"фирменного плеера."
+
+#: includes/admin/class-webinar-admin.php:283
+msgid "MP4 file"
+msgstr "Файл MP4"
+
+#: includes/admin/class-webinar-admin.php:285
+msgid "HLS stream"
+msgstr "HLS-поток"
+
+#: includes/admin/class-webinar-admin.php:289
+msgid "MP4 video"
+msgstr "Видео MP4"
+
+#: includes/admin/class-webinar-admin.php:293
+msgid "Master manifest (.m3u8)"
+msgstr "Мастер-манифест (.m3u8)"
+
+#: includes/admin/class-webinar-admin.php:295
+msgid "Segment base URL"
+msgstr "Базовый URL сегментов"
+
+#: includes/admin/class-webinar-admin.php:297
+msgid "Base URL used to resolve HLS segments and child manifests."
+msgstr "Базовый URL для сегментов HLS и дочерних манифестов."
+
+#: includes/admin/class-webinar-admin.php:300
+msgid "Segment signing key"
+msgstr "Ключ подписи сегментов"
+
+#: includes/admin/class-webinar-admin.php:302
+msgid ""
+"Secret key used by WordPress to sign HLS segment names (validated by nginx)."
+msgstr ""
+"Секретный ключ, которым WordPress подписывает имена сегментов HLS "
+"(проверяется nginx)."
+
+#: includes/admin/class-webinar-admin.php:305
+msgid "Signature TTL (seconds)"
+msgstr "Время жизни подписи (секунды)"
+
+#: includes/admin/class-webinar-admin.php:307
+msgid "How long a signed URL stays valid. Match your nginx secure_link config."
+msgstr ""
+"Как долго подписанная ссылка остаётся валидной. Должно совпадать с "
+"настройкой nginx secure_link."
+
+#: includes/admin/class-webinar-admin.php:314
+msgid "Nginx secure link"
+msgstr "Nginx secure link"
+
+#: includes/admin/class-webinar-admin.php:315
+msgid "AWS CloudFront style"
+msgstr "AWS CloudFront (стиль)"
+
+#: includes/admin/class-webinar-admin.php:316
+msgid "Fastly Token Auth style"
+msgstr "Fastly Token Auth (стиль)"
+
+#: includes/admin/class-webinar-admin.php:317
+msgid "Custom scheme"
+msgstr "Своя схема"
+
+#: includes/admin/class-webinar-admin.php:323
+msgid ""
+"Hash engine: MD5 (URL-safe base64). The CDN must verify the same string."
+msgstr "Движок хэша: MD5 (URL-safe base64). CDN должен проверять ту же строку."
+
+#: includes/admin/class-webinar-admin.php:327
+msgid "Hash template"
+msgstr "Шаблон хэша"
+
+#: includes/admin/class-webinar-admin.php:332
+msgid "Signature query template"
+msgstr "Шаблон подписи (query string)"
+
+#. translators: 1: %expires% in hash template, 2: %expires% in query template.
+#: includes/admin/class-webinar-admin.php:340
+msgid ""
+"Variables: %1$expires%, %path%, %key%, %t% (hash); %md5%, %2$expires%, %t%, "
+"%path% (query)."
+msgstr ""
+"Переменные: %expires%, %path%, %key%, %t% (хэш); %md5%, %expires%, %t%, "
+"%path% (query)."
+
+#: includes/admin/class-webinar-admin.php:347
+msgid "Poster image"
+msgstr "Картинка-заставка"
+
+#: includes/admin/class-webinar-admin.php:349
+msgid "Timeline presentation"
+msgstr "Отображение таймлайна"
+
+#: includes/admin/class-webinar-admin.php:350
+msgid "Show separate timeline block"
+msgstr "Показывать отдельный блок Таймлайн"
+
+#: includes/admin/class-webinar-admin.php:352
+msgid "Timeline only in progress bar"
+msgstr "Таймлайн только в прогресс-баре"
+
+#: includes/admin/class-webinar-admin.php:353
+msgid ""
+"Default: separate timeline block beside the video. \"Only in progress bar\" "
+"hides the side block and lets the video take the full width."
+msgstr ""
+"По умолчанию: отдельный блок таймлайна рядом с видео. «Только в прогресс-"
+"баре» скрывает боковой блок, видео занимает всю ширину."
+
+#: includes/admin/class-webinar-admin.php:368
+msgid "Presentation file"
+msgstr "Файл презентации"
+
+#: includes/admin/class-webinar-admin.php:370
+msgid "Button label"
+msgstr "Текст кнопки"
+
+#: includes/admin/class-webinar-admin.php:375
+msgid "Button icon (SVG)"
+msgstr "Иконка кнопки (SVG)"
+
+#: includes/admin/class-webinar-admin.php:416
+msgid "Choose from library"
+msgstr "Выбрать из библиотеки"
+
+#: includes/admin/class-webinar-admin.php:417
+msgid "Clear"
+msgstr "Сбросить"
+
+#: includes/admin/class-webinar-admin.php:424
+msgid "Normal (16 px)"
+msgstr "Обычный (16 px)"
+
+#: includes/admin/class-webinar-admin.php:425
+msgid "Large (28 px)"
+msgstr "Крупный (28 px)"
+
+#: includes/admin/class-webinar-admin.php:492
+msgid "Add chapter"
+msgstr "Добавить главу"
+
+#: includes/admin/class-webinar-admin.php:493
+#: includes/admin/class-webinar-admin.php:569
+msgid "Export block"
+msgstr "Экспорт блока"
+
+#: includes/admin/class-webinar-admin.php:494
+#: includes/admin/class-webinar-admin.php:570
+msgid "Import block"
+msgstr "Импорт блока"
+
+#: includes/admin/class-webinar-admin.php:519
+msgid "Start time"
+msgstr "Время начала"
+
+#: includes/admin/class-webinar-admin.php:522
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/admin/class-webinar-admin.php:525
+#: includes/admin/class-webinar-admin.php:588
+#: includes/admin/class-webinar-admin.php:641
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/admin/class-webinar-admin.php:530
+msgid "Detailed description"
+msgstr "Подробное описание"
+
+#: includes/admin/class-webinar-admin.php:533
+msgid "Clicks (stats)"
+msgstr "Клики (статистика)"
+
+#: includes/admin/class-webinar-admin.php:556
+msgid "Key takeaway"
+msgstr "Ключевой вывод"
+
+#: includes/admin/class-webinar-admin.php:568
+msgid "Add takeaway"
+msgstr "Добавить тезис"
+
+#: includes/admin/class-webinar-admin.php:616
+msgid "Add material"
+msgstr "Добавить материал"
+
+#: includes/admin/class-webinar-admin.php:638
+msgid "Button text"
+msgstr "Текст кнопки"
+
+#: includes/admin/class-webinar-admin.php:643
+msgid "Icon (SVG)"
+msgstr "Иконка (SVG)"
+
+#: includes/admin/class-webinar-admin.php:643
+msgid "Description"
+msgstr "Описание"
+
+#: includes/admin/class-webinar-admin.php:646
+msgid "File"
+msgstr "Файл"
+
+#: includes/admin/class-webinar-admin.php:697
+msgid "Preview loads here"
+msgstr "Превью загружается здесь"
+
+#: includes/admin/class-webinar-admin.php:703
+msgid "Custom CSS"
+msgstr "Пользовательский CSS"
+
+#: includes/admin/class-webinar-admin.php:705
+msgid ""
+"Write CSS here. Use relative selectors like .webinar-takeaways-grid li "
+"{ ... }"
+msgstr ""
+"Введите CSS здесь. Используйте относительные селекторы, например .webinar-"
+"takeaways-grid li { ... }"
+
+#: includes/admin/class-webinar-admin.php:708
+msgid "Apply"
+msgstr "Применить"
+
+#: includes/admin/class-webinar-admin.php:716
+msgid "Export scheme"
+msgstr "Экспортировать схему"
+
+#: includes/admin/class-webinar-admin.php:719
+msgid "Import scheme"
+msgstr "Импортировать схему"
+
+#: includes/admin/class-webinar-admin.php:740
+msgid "Details"
+msgstr "Содержание"
+
+#: includes/admin/class-webinar-admin.php:797
+msgid "Color theme"
+msgstr "Цветовая тема"
+
+#: includes/admin/class-webinar-admin.php:865
+msgid "Export color scheme"
+msgstr "Экспортировать цветовую схему"
+
+#: includes/admin/class-webinar-admin.php:866
+msgid "Import color scheme"
+msgstr "Импортировать цветовую схему"
+
+#: includes/admin/class-webinar-admin.php:880
+msgid "Brand"
+msgstr "Бренд"
+
+#: includes/admin/class-webinar-admin.php:881
+msgid "Surfaces"
+msgstr "Поверхности"
+
+#: includes/admin/class-webinar-admin.php:882
+msgid "Text"
+msgstr "Текст"
+
+#: includes/admin/class-webinar-admin.php:883
+msgid "Components"
+msgstr "Компоненты"
+
+#: includes/admin/class-webinar-admin.php:913
+msgid "Export webinar settings (JSON)"
+msgstr "Экспорт настроек вебинара (JSON)"
+
+#: includes/admin/class-webinar-admin.php:916
+msgid "Import webinar settings (JSON)"
+msgstr "Импорт настроек вебинара (JSON)"
+
+#: includes/admin/class-webinar-admin.php:941
+msgid "Views"
+msgstr "Просмотры"
+
+#: includes/admin/class-webinar-admin.php:943
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: includes/admin/class-webinar-admin.php:972
+msgid "Copy"
+msgstr "Копировать"
+
+#: includes/admin/class-webinar-admin.php:1465
+msgid "Imported webinar"
+msgstr "Импортированный вебинар"
+
+#: includes/class-webinar-themes.php:24
+msgid "Standard (site colors)"
+msgstr "Стандартная (цвета сайта)"
+
+#: includes/class-webinar-themes.php:25
+msgid "Dark night"
+msgstr "Тёмная ночь"
+
+#: includes/class-webinar-themes.php:26
+msgid "Emerald"
+msgstr "Изумруд"
+
+#: includes/class-webinar-themes.php:27
+msgid "Graphite"
+msgstr "Графит"
+
+#: includes/class-webinar-themes.php:28
+msgid "Sunset"
+msgstr "Закат"
+
+#: includes/class-webinar-themes.php:29
+msgid "Custom palette"
+msgstr "Своя палитра"
+
+#: includes/class-webinar-themes.php:41
+msgid "Primary color"
+msgstr "Основной цвет"
+
+#: includes/class-webinar-themes.php:42
+msgid "Primary hover"
+msgstr "Основной (наведение)"
+
+#: includes/class-webinar-themes.php:43
+msgid "Secondary color"
+msgstr "Вторичный цвет"
+
+#: includes/class-webinar-themes.php:44
+msgid "Accent color"
+msgstr "Акцентный цвет"
+
+#: includes/class-webinar-themes.php:47
+msgid "Main background"
+msgstr "Основной фон"
+
+#: includes/class-webinar-themes.php:48
+msgid "Tile background"
+msgstr "Фон плитки"
+
+#: includes/class-webinar-themes.php:49
+msgid "Tab content background"
+msgstr "Фон содержимого"
+
+#: includes/class-webinar-themes.php:50
+msgid "Button background"
+msgstr "Фон кнопки"
+
+#: includes/class-webinar-themes.php:51
+msgid "Borders"
+msgstr "Границы"
+
+#: includes/class-webinar-themes.php:54
+msgid "Primary text"
+msgstr "Основной текст"
+
+#: includes/class-webinar-themes.php:55
+msgid "Secondary text"
+msgstr "Вторичный текст"
+
+#: includes/class-webinar-themes.php:56
+msgid "Text on primary"
+msgstr "Текст на основном"
+
+#: includes/class-webinar-themes.php:57
+msgid "Muted text"
+msgstr "Приглушённый текст"
+
+#: includes/class-webinar-themes.php:58
+msgid "Inverse text"
+msgstr "Инверсный текст"
+
+#: includes/class-webinar-themes.php:61
+msgid "Active tab"
+msgstr "Активная вкладка"
+
+#: includes/class-webinar-themes.php:62
+msgid "Active timeline"
+msgstr "Активный таймлайн"
+
+#: includes/class-webinar-themes.php:63
+msgid "Eye & counter"
+msgstr "Глаз и счётчик"
+
+#: includes/class-webinar-themes.php:64
+msgid "Badge background"
+msgstr "Фон бейджа"
+
+#: includes/class-webinar-layouts.php:38 includes/class-webinar-layouts.php:45
+#: includes/class-webinar-layouts.php:51 includes/class-webinar-layouts.php:57
+msgid "Classic"
+msgstr "Классическая"
+
+#: includes/class-webinar-layouts.php:39
+msgid "Cards"
+msgstr "Карточки"
+
+#: includes/class-webinar-layouts.php:40
+msgid "Compact"
+msgstr "Компактная"
+
+#: includes/class-webinar-layouts.php:41
+msgid "Contrast"
+msgstr "Контрастная"
+
+#: includes/class-webinar-layouts.php:42 includes/class-webinar-layouts.php:48
+#: includes/class-webinar-layouts.php:54 includes/class-webinar-layouts.php:63
+msgid "Custom"
+msgstr "Пользовательская"
+
+#: includes/class-webinar-layouts.php:46 includes/class-webinar-layouts.php:52
+#: includes/class-webinar-layouts.php:58
+msgid "Accent"
+msgstr "Акцент"
+
+#: includes/class-webinar-layouts.php:47 includes/class-webinar-layouts.php:53
+msgid "Gradient card"
+msgstr "Градиентная карточка"
+
+#: includes/class-webinar-layouts.php:59
+msgid "Modern 1"
+msgstr "Современная 1"
+
+#: includes/class-webinar-layouts.php:60
+msgid "Modern 2"
+msgstr "Современная 2"
+
+#: includes/class-webinar-layouts.php:61
+msgid "Modern 3"
+msgstr "Современная 3"
+
+#: includes/class-webinar-layouts.php:62
+msgid "Modern 4"
+msgstr "Современная 4"
