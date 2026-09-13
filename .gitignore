@@ -1,3 +1,10 @@
+# Dependencies
+node_modules/
+
+# Build files (если это автогенерируемая папка)
+build/
+dist/
+
 # Wordpress - ignore core, configuration, examples, uploads and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
